@@ -11,7 +11,7 @@ export interface Movie {
   release_date?: string
   first_air_date?: string
   genre_ids: number[]
-  media_type?: 'movie' | 'tv'
+  media_type?: 'movie' | 'tv' | 'person'
   popularity: number
   adult?: boolean
   original_language: string
